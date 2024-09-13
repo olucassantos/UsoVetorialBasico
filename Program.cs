@@ -16,7 +16,7 @@ namespace UsoVetorialBasico
             // Cria um laço para solicitar nomes
             for (int i = 0; i < nomes.Length; i++)
             {
-                Console.Write("Escreva um nome: ");
+                Console.Write("Escreva um nome, por favor: ");
                 nomes[i] = Console.ReadLine();
             }
 
